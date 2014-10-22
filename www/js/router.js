@@ -5,17 +5,22 @@
     'views/NullStartView',
     'device'
 ], function ($, _, Backbone, StartView, device) {
-        'use strict';
-        var AppRouter = new Backbone.Router.extend({
-            routes: {
-                '':'nullStart'
+        //'use strict';
+
+        var AppRouter = Backbone.Router.extend({
+            routes:{
+                '*actions':'nullStart'
             },
             nullStart: function() {
-                console.log(1);
+                new StartView();
             }
         });
-
-        new AppRouter();
-        Backbone.history.start();
+        var initialize = function() {
+            new AppRouter();
+            Backbone.history.start();
+        };
+        return {
+            initialize: initialize
+        };
     }
 );
