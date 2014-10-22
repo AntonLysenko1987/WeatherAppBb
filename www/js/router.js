@@ -1,16 +1,21 @@
 ﻿define([
     'jquery',
+    'underscore',
     'backbone',
     'views/NullStartView',
     'device'
-], function ($, Backbone, StartView, device) {
+], function ($, _, Backbone, StartView, device) {
         'use strict';
-        var App = function () {
-            this.initialize = function () {
-                var startView = new StartView();
-                $('div[data-role="page"]').height(device.height);
-            };
-        };
-        return new App();
+        var AppRouter = new Backbone.Router.extend({
+            routes: {
+                '':'nullStart'
+            },
+            nullStart: function() {
+                console.log(1);
+            }
+        });
+
+        new AppRouter();
+        Backbone.history.start();
     }
 );
