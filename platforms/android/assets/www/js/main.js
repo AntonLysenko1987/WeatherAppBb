@@ -35,13 +35,14 @@ require([
 	'app',
     'jquery',
     'jquerymobile'
-], function (App, $, Mobile) {
+], function (App, $) {
     'use strict';
-    // Prevents all anchor click handling
-    $.mobile.linkBindingEnabled = false;
-
-    // Disabling this will prevent jQuery Mobile from handling hash changes
-    $.mobile.hashListeningEnabled = false;
+    $(document).on('mobileinit', function() {
+        $.mobile.ajaxEnabled = false;
+        $.mobile.hashListeningEnabled = false;
+        $.mobile.linkBindingEnabled = false;
+        $.mobile.pushStateEnabled = false;
+    });
 
     App.initialize();
 });

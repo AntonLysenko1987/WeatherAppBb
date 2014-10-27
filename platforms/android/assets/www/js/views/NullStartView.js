@@ -9,7 +9,7 @@ define([
 ], function (App, $, Backbone, LocationModel, MainView, NullStart) {
 	'use strict';
 	var UserProfileView = Backbone.View.extend({
-		el: $('#mainBlock'),
+		el: $('div[data-role="page"]'),
         events: {
             'input #searchLocationInput':'searchLocation',
             'click #getLocationButton':'getLocation'

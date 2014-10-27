@@ -14,7 +14,7 @@ define([
 	'use strict';
 	var MainView = Backbone.View.extend({
 		tagName: 'div',
-        id: 'mainAppContainer',
+        //id: 'mainAppContainer',
         events: {
             'click #sliderData': 'handleSwipe'
         },
@@ -68,7 +68,7 @@ define([
             });
         },
         loadCurrentWeather: function() {
-            console.log('Yeah!!!');
+
             var extendedWeather = new ExtendedWeatherDataView({model:this.currentWeather});
             $('#sliderData').html(extendedWeather.render().el);
         },

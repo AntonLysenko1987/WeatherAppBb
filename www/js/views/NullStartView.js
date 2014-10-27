@@ -5,11 +5,12 @@ define([
     'models/LocationModel',
     'views/MainView',
     'text!templates/NullStart.html',
+    'device',
     'async!https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyA87iJ_pjRHgy67v-LsIFzGJcKSxBa7liw&sensor=false'
-], function (App, $, Backbone, LocationModel, MainView, NullStart) {
+], function (App, $, Backbone, LocationModel, MainView, NullStart, device) {
 	'use strict';
 	var UserProfileView = Backbone.View.extend({
-		el: $('div[data-role="page"]'),
+		el: $('#mainBlock'),
         events: {
             'input #searchLocationInput':'searchLocation',
             'click #getLocationButton':'getLocation'
@@ -21,10 +22,10 @@ define([
         },
 		render: function() {
 			this.$el.html(NullStart);
-            var viewport = $( window ).height();
+            this.$el.height(device.height);
             var nullStartBlock = $('#nullStart');
             var nullStartHeight = nullStartBlock.height();
-            var nullStartVerticalPosition = (viewport - nullStartHeight)/2 + 'px';
+            var nullStartVerticalPosition = (device.height - nullStartHeight)/2 + 'px';
             nullStartBlock.css('top',nullStartVerticalPosition);
 		},
         searchLocation: function(e) {

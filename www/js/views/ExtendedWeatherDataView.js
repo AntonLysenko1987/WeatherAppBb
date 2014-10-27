@@ -4,7 +4,6 @@ define([
 	'backbone',
     'models/WeatherDataModel',
     'text!templates/MainBlock/sliderData/WeatherExtendData.html',
-    'jquerymobile'
 ], function ($, _, Backbone, WeatherDataModel, WeatherExtend) {
 	'use strict';
 	var ExtendWeatherData = Backbone.View.extend({

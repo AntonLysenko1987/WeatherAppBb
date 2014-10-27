@@ -53,11 +53,11 @@ Z:\home\localhost\www\weatherAppBb\platforms\android\assets\www\js\device.js \
 Z:\home\localhost\www\weatherAppBb\platforms\android\assets\www\js\libs \
 Z:\home\localhost\www\weatherAppBb\platforms\android\assets\www\js\main.js \
 Z:\home\localhost\www\weatherAppBb\platforms\android\assets\www\js\models \
+Z:\home\localhost\www\weatherAppBb\platforms\android\assets\www\js\router.js \
 Z:\home\localhost\www\weatherAppBb\platforms\android\assets\www\js\templates \
 Z:\home\localhost\www\weatherAppBb\platforms\android\assets\www\js\views \
 Z:\home\localhost\www\weatherAppBb\platforms\android\assets\www\js\collections\LocationsList.js \
 Z:\home\localhost\www\weatherAppBb\platforms\android\assets\www\js\libs\backbone \
-Z:\home\localhost\www\weatherAppBb\platforms\android\assets\www\js\libs\hammerjs \
 Z:\home\localhost\www\weatherAppBb\platforms\android\assets\www\js\libs\jquery \
 Z:\home\localhost\www\weatherAppBb\platforms\android\assets\www\js\libs\requirejs \
 Z:\home\localhost\www\weatherAppBb\platforms\android\assets\www\js\libs\text.js \
@@ -65,12 +65,6 @@ Z:\home\localhost\www\weatherAppBb\platforms\android\assets\www\js\libs\undersco
 Z:\home\localhost\www\weatherAppBb\platforms\android\assets\www\js\libs\backbone\backbone.js \
 Z:\home\localhost\www\weatherAppBb\platforms\android\assets\www\js\libs\backbone\backbone.localStorage.js \
 Z:\home\localhost\www\weatherAppBb\platforms\android\assets\www\js\libs\backbone\backbone.touch.js \
-Z:\home\localhost\www\weatherAppBb\platforms\android\assets\www\js\libs\hammerjs\backbone.hammer.js \
-Z:\home\localhost\www\weatherAppBb\platforms\android\assets\www\js\libs\hammerjs\hammer.js \
-Z:\home\localhost\www\weatherAppBb\platforms\android\assets\www\js\libs\hammerjs\hammer.min.js \
-Z:\home\localhost\www\weatherAppBb\platforms\android\assets\www\js\libs\hammerjs\hammer.min.map \
-Z:\home\localhost\www\weatherAppBb\platforms\android\assets\www\js\libs\hammerjs\jquery.hammer-full.min.map \
-Z:\home\localhost\www\weatherAppBb\platforms\android\assets\www\js\libs\hammerjs\jquery.hammer.min.js \
 Z:\home\localhost\www\weatherAppBb\platforms\android\assets\www\js\libs\jquery\jquery-2.1.1.min.js \
 Z:\home\localhost\www\weatherAppBb\platforms\android\assets\www\js\libs\jquery\jquery-ui.min.js \
 Z:\home\localhost\www\weatherAppBb\platforms\android\assets\www\js\libs\jquery\jquery.mobile-1.4.4.min.map \

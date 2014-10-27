@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3adbe739-1f1c-462c-9f38-87b0bad0537d" name="Default" comment="test remote&#10;" />
+    <list default="true" id="3adbe739-1f1c-462c-9f38-87b0bad0537d" name="Default" comment="test remote&#10;">
+      <change type="DELETED" beforePath="Z:\home\localhost\www\weatherAppBb\platforms\android\assets\www\js\libs\hammerjs\backbone.hammer.js" afterPath="" />
+      <change type="DELETED" beforePath="Z:\home\localhost\www\weatherAppBb\platforms\android\assets\www\js\libs\hammerjs\hammer.js" afterPath="" />
+      <change type="DELETED" beforePath="Z:\home\localhost\www\weatherAppBb\platforms\android\assets\www\js\libs\hammerjs\hammer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="Z:\home\localhost\www\weatherAppBb\platforms\android\assets\www\js\libs\hammerjs\hammer.min.map" afterPath="" />
+      <change type="DELETED" beforePath="Z:\home\localhost\www\weatherAppBb\platforms\android\assets\www\js\libs\hammerjs\jquery.hammer-full.min.map" afterPath="" />
+      <change type="DELETED" beforePath="Z:\home\localhost\www\weatherAppBb\platforms\android\assets\www\js\libs\hammerjs\jquery.hammer.min.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/weatherApp-debug-unaligned.apk" afterPath="$PROJECT_DIR$/platforms/android/ant-build/weatherApp-debug-unaligned.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/weatherApp-debug.apk" afterPath="$PROJECT_DIR$/platforms/android/ant-build/weatherApp-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/weatherApp.ap_" afterPath="$PROJECT_DIR$/platforms/android/ant-build/weatherApp.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/views/ExtendedWeatherDataView.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/views/ExtendedWeatherDataView.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/views/ExtendedWeatherDataView.js" afterPath="$PROJECT_DIR$/www/js/views/ExtendedWeatherDataView.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/templates/MainBlock/Main.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/templates/MainBlock/Main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/templates/MainBlock/Main.html" afterPath="$PROJECT_DIR$/www/js/templates/MainBlock/Main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/views/MainView.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/views/MainView.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/views/NullStartView.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/views/NullStartView.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/views/NullStartView.js" afterPath="$PROJECT_DIR$/www/js/views/NullStartView.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/app.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/ant-build/build.prop" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/ant-build/build.prop" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/build.prop" afterPath="$PROJECT_DIR$/platforms/android/ant-build/build.prop" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/index.css" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/index.css" afterPath="$PROJECT_DIR$/www/css/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/index.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/less/index.less" afterPath="$PROJECT_DIR$/platforms/android/assets/www/less/index.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/less/index.less" afterPath="$PROJECT_DIR$/www/less/index.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/main.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/main.js" afterPath="$PROJECT_DIR$/www/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/weatherApp.ap_.d" afterPath="$PROJECT_DIR$/platforms/android/ant-build/weatherApp.ap_.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="weatherApp.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,25 +55,34 @@
       <file leaf-file-name="index.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/less/index.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="22" selection-start="1546" selection-end="1546" vertical-scroll-proportion="0.0" vertical-offset="1479" max-vertical-offset="1836">
+            <state line="14" column="0" selection-start="249" selection-end="249" vertical-scroll-proportion="-2.3846154" vertical-offset="176" max-vertical-offset="1683">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NullStartView.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="0" selection-start="831" selection-end="831" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NullStartView.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/js/views/NullStartView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="20" selection-start="2978" selection-end="2978" vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="1581">
+            <state line="24" column="41" selection-start="871" selection-end="871" vertical-scroll-proportion="0.44299674" vertical-offset="0" max-vertical-offset="1598">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="router.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="router.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/js/router.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="171" selection-end="171" vertical-scroll-proportion="0.14766558" vertical-offset="0" max-vertical-offset="921">
+            <state line="8" column="0" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
               <folding />
             </state>
           </provider>
@@ -53,7 +91,7 @@
       <file leaf-file-name="MainView.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/js/views/MainView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="10" selection-start="567" selection-end="567" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1496">
+            <state line="16" column="10" selection-start="567" selection-end="567" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1496">
               <folding />
             </state>
           </provider>
@@ -62,43 +100,7 @@
       <file leaf-file-name="ExtendedWeatherDataView.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/js/views/ExtendedWeatherDataView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="23" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="578">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="device.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/js/device.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="289">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WeatherDataModel.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/js/models/WeatherDataModel.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="8" selection-start="8" selection-end="8" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WeatherExtendData.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/js/templates/MainBlock/sliderData/WeatherExtendData.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="17" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="255">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/js/templates/MainBlock/Main.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+            <state line="5" column="65" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
               <folding />
             </state>
           </provider>
@@ -107,7 +109,7 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="391">
+            <state line="10" column="0" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
               <folding />
             </state>
           </provider>
@@ -136,15 +138,15 @@
         <option value="$PROJECT_DIR$/www/js/models/LocationModel.js" />
         <option value="$PROJECT_DIR$/www/js/models/WeatherDataModel.js" />
         <option value="$PROJECT_DIR$/www/js/templates/MainBlock/sliderData/WeatherExtendData.html" />
-        <option value="$PROJECT_DIR$/www/js/views/ExtendedWeatherDataView.js" />
         <option value="$PROJECT_DIR$/www/index.html" />
-        <option value="$PROJECT_DIR$/www/js/templates/MainBlock/Main.html" />
         <option value="$PROJECT_DIR$/www/js/views/MainView.js" />
-        <option value="$PROJECT_DIR$/www/less/index.less" />
-        <option value="$PROJECT_DIR$/www/js/main.js" />
         <option value="$PROJECT_DIR$/www/js/app.js" />
-        <option value="$PROJECT_DIR$/www/js/views/NullStartView.js" />
         <option value="$PROJECT_DIR$/www/js/router.js" />
+        <option value="$PROJECT_DIR$/www/js/templates/MainBlock/Main.html" />
+        <option value="$PROJECT_DIR$/www/js/views/ExtendedWeatherDataView.js" />
+        <option value="$PROJECT_DIR$/www/js/main.js" />
+        <option value="$PROJECT_DIR$/www/less/index.less" />
+        <option value="$PROJECT_DIR$/www/js/views/NullStartView.js" />
       </list>
     </option>
   </component>
@@ -196,7 +198,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -495,6 +496,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
@@ -511,6 +513,14 @@
     <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -521,23 +531,15 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
       <setting name="configLocationType" value="CONFIG_FILE" />
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="CHROME" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -577,8 +579,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -595,15 +597,15 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32946146" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -618,17 +620,17 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24947916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -650,6 +652,69 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/www/js/views/NullStartView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="20" selection-start="2978" selection-end="2978" vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="1581">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/views/MainView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="10" selection-start="567" selection-end="567" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1496">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/views/ExtendedWeatherDataView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="23" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="578">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/device.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="289">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/models/WeatherDataModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="8" selection-start="8" selection-end="8" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/templates/MainBlock/sliderData/WeatherExtendData.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="17" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/templates/MainBlock/Main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/www/less/index.less">
       <provider selected="true" editor-type-id="text-editor">
         <state line="87" column="22" selection-start="1546" selection-end="1546" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1836">
@@ -827,35 +892,9 @@
         <state line="0" column="8" selection-start="8" selection-end="8" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="921" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/templates/NullStart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="11" selection-start="110" selection-end="110" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="221">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/less/index.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="22" selection-start="1546" selection-end="1546" vertical-scroll-proportion="0.0" vertical-offset="1479" max-vertical-offset="1836">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="42" selection-start="1119" selection-end="1119" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="42" selection-start="1590" selection-end="1590" vertical-scroll-proportion="-20.26923" vertical-offset="0" max-vertical-offset="714" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/templates/MainBlock/sliderData/WeatherExtendData.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="17" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="255">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/models/WeatherDataModel.js">
@@ -865,9 +904,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/views/MainView.js">
+    <entry file="file://$PROJECT_DIR$/www/js/templates/NullStart.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="10" selection-start="567" selection-end="567" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1496">
+        <state line="3" column="11" selection-start="110" selection-end="110" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="221">
           <folding />
         </state>
       </provider>
@@ -875,6 +914,27 @@
     <entry file="file://$PROJECT_DIR$/www/js/templates/MainBlock/Main.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="895">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/templates/MainBlock/sliderData/WeatherExtendData.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="17" selection-start="199" selection-end="199" vertical-scroll-proportion="0.09497207" vertical-offset="0" max-vertical-offset="895">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="0" selection-start="831" selection-end="831" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
           <folding />
         </state>
       </provider>
@@ -888,28 +948,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/views/ExtendedWeatherDataView.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="23" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+        <state line="5" column="65" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/less/index.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="249" selection-end="249" vertical-scroll-proportion="-2.3846154" vertical-offset="176" max-vertical-offset="1683">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/device.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+        <state line="1" column="0" selection-start="31" selection-end="31" vertical-scroll-proportion="0.018458197" vertical-offset="0" max-vertical-offset="921">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/views/MainView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="10" selection-start="567" selection-end="567" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1496">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/views/NullStartView.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="20" selection-start="2978" selection-end="2978" vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="1581">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="171" selection-end="171" vertical-scroll-proportion="0.14766558" vertical-offset="0" max-vertical-offset="921">
+        <state line="24" column="41" selection-start="871" selection-end="871" vertical-scroll-proportion="0.44299674" vertical-offset="0" max-vertical-offset="1598">
           <folding />
         </state>
       </provider>
