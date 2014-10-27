@@ -2,47 +2,53 @@ define([
     'app',
 	'jquery',
 	'backbone',
-    'backbonetouch',
     'models/LocationModel',
     'models/WeatherDataModel',
     'views/ExtendedWeatherDataView',
     'text!templates/MainBlock/Main.html',
     'module',
     'device',
-    'hammer',
+    'hammerjs',
     'jqueryHammer',
     'backboneHammer',
     'async!https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyA87iJ_pjRHgy67v-LsIFzGJcKSxBa7liw&sensor=false'
-], function (App, $, Backbone, backbonetouch, LocationModel, WeatherDataModel, ExtendedWeatherDataView, Main, module, device) {
+], function (App, $, Backbone, LocationModel, WeatherDataModel, ExtendedWeatherDataView, Main, module, device, hammer, jqHammer) {
 	'use strict';
+
 	var MainView = Backbone.View.extend({
 		tagName: 'div',
         //id: 'mainAppContainer',
-//        events: {
-//            'click #sliderData': 'handleSwipe'
+        events: {
+            'swipe': 'handleSwipe'
+        },
+        handleSwipe: function(e){
+            if(e.gesture.direction == 2) {
+                console.log('left');
+            } else {
+                console.log('right');
+            }
+        },
+//        hammerEvents: {
+//            'swipeleft #sliderData': 'handleSwipe',
+//            'tap #sliderData': 'handleTap'
+//        },
+//        hammerOptions: {
+//            tap: true
 //        },
 //        handleSwipe: function(){
-//            alert('Swipe');
+//            console.log('swipe');
 //        },
-        hammerEvents: {
-            'swipeleft #sliderData': 'handleSwipe',
-            'tap #sliderData': 'handleTap'
-        },
-        hammerOptions: {
-            tap: true
-        },
-        handleSwipe: function(){
-            console.log('swipe');
-        },
-        handleTap: function(){
-            console.log('tap');
-        },
+//        handleTap: function(){
+//            console.log('tap');
+//        },
         initialize: function() {
             this.currentWeather = new WeatherDataModel();
             this.listenTo(this.currentWeather, 'change', this.loadCurrentWeather);
         },
 		render: function() {
             $(this.el).html(Main);
+            $(this.el).hammer();
+            console.log($(this.el));
             this.getWeather();
             return this;
 		},
