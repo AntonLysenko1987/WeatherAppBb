@@ -20,6 +20,9 @@ require.config({
 		underscore: 'libs/underscore/underscore',
 		backbone: 'libs/backbone/backbone',
         backbonetouch: 'libs/backbone/backbone.touch',
+        hammer: 'libs/hammer/hammer.min',
+        jqueryHammer: 'libs/hammer/jquery.hammer',
+        backboneHammer: 'libs/hammer/backbone.hammer',
         text: 'libs/text',
         async: 'libs/requirejs/plugins/async'
 	},

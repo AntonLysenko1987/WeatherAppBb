@@ -9,17 +9,33 @@ define([
     'text!templates/MainBlock/Main.html',
     'module',
     'device',
+    'hammer',
+    'jqueryHammer',
+    'backboneHammer',
     'async!https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyA87iJ_pjRHgy67v-LsIFzGJcKSxBa7liw&sensor=false'
 ], function (App, $, Backbone, backbonetouch, LocationModel, WeatherDataModel, ExtendedWeatherDataView, Main, module, device) {
 	'use strict';
 	var MainView = Backbone.View.extend({
 		tagName: 'div',
         //id: 'mainAppContainer',
-        events: {
-            'click #sliderData': 'handleSwipe'
+//        events: {
+//            'click #sliderData': 'handleSwipe'
+//        },
+//        handleSwipe: function(){
+//            alert('Swipe');
+//        },
+        hammerEvents: {
+            'swipeleft #sliderData': 'handleSwipe',
+            'tap #sliderData': 'handleTap'
+        },
+        hammerOptions: {
+            tap: true
         },
         handleSwipe: function(){
-            alert('Swipe');
+            console.log('swipe');
+        },
+        handleTap: function(){
+            console.log('tap');
         },
         initialize: function() {
             this.currentWeather = new WeatherDataModel();
