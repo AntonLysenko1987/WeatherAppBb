@@ -12,7 +12,7 @@
                 '*actions':'nullStart'
             },
             nullStart: function() {
-                new StartView();
+                StartView.initialize();
             }
         });
         var initialize = function() {

@@ -8,50 +8,48 @@ define([
     'text!templates/MainBlock/Main.html',
     'module',
     'device',
-    'hammerjs',
-    'jqueryHammer',
     'backboneHammer',
     'async!https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyA87iJ_pjRHgy67v-LsIFzGJcKSxBa7liw&sensor=false'
-], function (App, $, Backbone, LocationModel, WeatherDataModel, ExtendedWeatherDataView, Main, module, device, hammer, jqHammer) {
+], function (App, $, Backbone, LocationModel, WeatherDataModel, ExtendedWeatherDataView, Main, module, device) {
 	'use strict';
 
 	var MainView = Backbone.View.extend({
-		tagName: 'div',
-        //id: 'mainAppContainer',
+        id: 'mainAppContainer',
         events: {
-            'swipe': 'handleSwipe'
+            'click #sliderContent': 'handleSwipe'
         },
-        handleSwipe: function(e){
-            if(e.gesture.direction == 2) {
-                alert('left');
-            } else {
-                alert('right');
-            }
+//        handleSwipe: function(e){
+//            if(e.gesture.direction == 2) {
+//                alert('left');
+//            } else {
+//                alert('right');
+//            }
+//        },
+        hammerEvents: {
+            'swipeleft': 'handleLeftSwipe',
+            'swiperight': 'handleRightSwipe'
         },
-//        hammerEvents: {
-//            'swipeleft #sliderData': 'handleSwipe',
-//            'tap #sliderData': 'handleTap'
-//        },
-//        hammerOptions: {
-//            tap: true
-//        },
-//        handleSwipe: function(){
-//            console.log('swipe');
-//        },
-//        handleTap: function(){
-//            console.log('tap');
-//        },
+        hammerOptions: {
+            tap: true
+        },
+        handleLeftSwipe: function(){
+            alert('left');
+        },
+        handleRightSwipe: function(){
+            alert('right');
+        },
         initialize: function() {
             this.currentWeather = new WeatherDataModel();
             this.listenTo(this.currentWeather, 'change', this.loadCurrentWeather);
         },
 		render: function() {
             $(this.el).html(Main);
-            $(this.el).hammer();
+
             console.log($(this.el));
             this.getWeather();
             return this;
 		},
+
         getWeather: function () {
             var latitude = this.model.get('latitude'),
                 longitude = this.model.get('longitude');

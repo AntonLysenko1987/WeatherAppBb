@@ -7,7 +7,6 @@ define([
 ], function ($, _, Backbone, WeatherDataModel, WeatherExtend) {
 	'use strict';
 	var ExtendWeatherData = Backbone.View.extend({
-		tagName: 'div',
         id: 'weatherDataExtend',
         template: _.template(WeatherExtend),
         events: {

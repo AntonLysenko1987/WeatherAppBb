@@ -6,20 +6,15 @@ define([
     'views/MainView',
     'text!templates/NullStart.html',
     'device',
-    //'hammerjs',
-    'jqueryHammer',
-    'backboneHammer',
+    'hammerjs',
     'async!https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyA87iJ_pjRHgy67v-LsIFzGJcKSxBa7liw&sensor=false'
-], function (App, $, Backbone, LocationModel, MainView, NullStart, device) {
+], function (App, $, Backbone, LocationModel, MainView, NullStart, device, hammer) {
 	'use strict';
 	var UserProfileView = Backbone.View.extend({
 		el: $('#mainBlock'),
         events: {
-            'input #searchLocationInput':'searchLocation',
-            'tap #getLocationButton':'getLocation'
-        },
-        hammerOptions: {
-            tap: true
+            'input #searchLocationInput': 'searchLocation',
+            'click #getLocationButton': 'getLocation'
         },
         initialize: function() {
             this.currentLocation = new LocationModel();
@@ -70,6 +65,7 @@ define([
             this.currentLocation.set({latitude:lat, longitude:lng});
         },
         getLocation: function() {
+            alert('Loc');
             var self = this;
             if( navigator.geolocation ) {
                 navigator.geolocation.getCurrentPosition(function(position) {
@@ -88,7 +84,15 @@ define([
         }
 
 	});
-	return UserProfileView;
+    var initialize = function() {
+        var userProfileView = new UserProfileView();
+        userProfileView.$('#getLocationButton').hammer().on('tap', function() {
+            userProfileView.getLocation();
+        });
+    }
+	return {
+        initialize: initialize
+    };
 
 });
 
