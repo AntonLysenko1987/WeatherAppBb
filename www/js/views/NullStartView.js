@@ -6,6 +6,9 @@ define([
     'views/MainView',
     'text!templates/NullStart.html',
     'device',
+    //'hammerjs',
+    'jqueryHammer',
+    'backboneHammer',
     'async!https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyA87iJ_pjRHgy67v-LsIFzGJcKSxBa7liw&sensor=false'
 ], function (App, $, Backbone, LocationModel, MainView, NullStart, device) {
 	'use strict';
@@ -14,6 +17,9 @@ define([
         events: {
             'input #searchLocationInput':'searchLocation',
             'click #getLocationButton':'getLocation'
+        },
+        hammerOptions: {
+            tap: true
         },
         initialize: function() {
             this.currentLocation = new LocationModel();

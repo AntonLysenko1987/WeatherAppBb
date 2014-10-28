@@ -3,7 +3,7 @@ define([
     'underscore',
 	'backbone',
     'models/WeatherDataModel',
-    'text!templates/MainBlock/sliderData/WeatherExtendData.html',
+    'text!templates/MainBlock/sliderData/WeatherExtendData.html'
 ], function ($, _, Backbone, WeatherDataModel, WeatherExtend) {
 	'use strict';
 	var ExtendWeatherData = Backbone.View.extend({
