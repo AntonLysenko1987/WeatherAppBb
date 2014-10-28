@@ -7,16 +7,15 @@ define([
     'views/ExtendedWeatherDataView',
     'views/FacebookShareView',
     'views/ForecastView',
-    'text!templates/MainBlock/Main.html',
     'module',
     'device',
     'backboneHammer',
     'async!https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyA87iJ_pjRHgy67v-LsIFzGJcKSxBa7liw&sensor=false'
-], function (App, $, Backbone, LocationModel, WeatherDataModel, ExtendedWeatherDataView, FacebookShareView, ForecastView, Main, module, device) {
+], function (App, $, Backbone, LocationModel, WeatherDataModel, ExtendedWeatherDataView, FacebookShareView, ForecastView, module, device) {
 	'use strict';
 
 	var MainView = Backbone.View.extend({
-        id: 'mainAppContainer',
+        template: '#mainView',
         events: {
             'click #sliderContent': 'handleSwipe'
         },
@@ -40,7 +39,8 @@ define([
             this.listenTo(this.currentWeather, 'change', this.loadCurrentWeather);
         },
 		render: function() {
-            $(this.el).html(Main);
+            var content = $(this.template).html();
+            $(this.el).html(content);
             this.getWeather();
             return this;
 		},

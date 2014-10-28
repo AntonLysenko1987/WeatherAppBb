@@ -4,14 +4,14 @@ define([
 	'backbone',
     'models/LocationModel',
     'views/MainView',
-    'text!templates/NullStart.html',
     'device',
     'hammerjs',
     'async!https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyA87iJ_pjRHgy67v-LsIFzGJcKSxBa7liw&sensor=false'
-], function (App, $, Backbone, LocationModel, MainView, NullStart, device, hammer) {
+], function (App, $, Backbone, LocationModel, MainView, device, hammer) {
 	'use strict';
 	var UserProfileView = Backbone.View.extend({
 		el: $('#mainBlock'),
+        template: '#nullStartView',
         events: {
             'input #searchLocationInput': 'searchLocation',
             'click #getLocationButton': 'getLocation'
@@ -22,7 +22,8 @@ define([
             this.listenTo(this.currentLocation,'change',this.loadMainScreen);
         },
 		render: function() {
-			this.$el.html(NullStart);
+            var content = $(this.template).html();
+			this.$el.html(content);
             this.$el.height(device.height);
             var nullStartBlock = $('#nullStart');
             var nullStartHeight = nullStartBlock.height();
