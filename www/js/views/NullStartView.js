@@ -6,7 +6,7 @@ define([
     'views/MainView',
     'text!templates/NullStart.html',
     'device',
-    //'hammerjs',
+    'hammerjs',
     'jqueryHammer',
     'backboneHammer',
     'async!https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyA87iJ_pjRHgy67v-LsIFzGJcKSxBa7liw&sensor=false'
@@ -16,7 +16,7 @@ define([
 		el: $('#mainBlock'),
         events: {
             'input #searchLocationInput':'searchLocation',
-            'click #getLocationButton':'getLocation'
+            'tap #getLocationButton':'getLocation'
         },
         hammerOptions: {
             tap: true

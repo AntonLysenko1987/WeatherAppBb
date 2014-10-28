@@ -17,10 +17,11 @@ require.config({
 	paths: {
 		jquery: 'libs/jquery/jquery-2.1.1.min',
         jqueryui: 'libs/jquery/jquery-ui.min',
-        jquerymobile: 'libs/jquery/jquerymobile',
 		underscore: 'libs/underscore/underscore',
 		backbone: 'libs/backbone/backbone',
-        backbonetouch: 'libs/backbone/backbone.touch',
+        hammerjs: 'libs/hammer/hammer.min',
+        jqueryHammer: 'libs/hammer/jquery.hammer',
+        backboneHammer: 'libs/hammer/backbone.hammer',
         text: 'libs/text',
         async: 'libs/requirejs/plugins/async'
 	},
@@ -33,16 +34,8 @@ require.config({
 
 require([
 	'app',
-    'jquery',
-    'jquerymobile'
+    'jquery'
 ], function (App, $) {
     'use strict';
-    $(document).on('mobileinit', function() {
-        $.mobile.ajaxEnabled = false;
-        $.mobile.hashListeningEnabled = false;
-        $.mobile.linkBindingEnabled = false;
-        $.mobile.pushStateEnabled = false;
-    });
-
     App.initialize();
 });

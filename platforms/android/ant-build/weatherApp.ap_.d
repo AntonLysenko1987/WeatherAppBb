@@ -58,6 +58,7 @@ Z:\home\localhost\www\weatherAppBb\platforms\android\assets\www\js\templates \
 Z:\home\localhost\www\weatherAppBb\platforms\android\assets\www\js\views \
 Z:\home\localhost\www\weatherAppBb\platforms\android\assets\www\js\collections\LocationsList.js \
 Z:\home\localhost\www\weatherAppBb\platforms\android\assets\www\js\libs\backbone \
+Z:\home\localhost\www\weatherAppBb\platforms\android\assets\www\js\libs\hammer \
 Z:\home\localhost\www\weatherAppBb\platforms\android\assets\www\js\libs\jquery \
 Z:\home\localhost\www\weatherAppBb\platforms\android\assets\www\js\libs\requirejs \
 Z:\home\localhost\www\weatherAppBb\platforms\android\assets\www\js\libs\text.js \
@@ -65,10 +66,13 @@ Z:\home\localhost\www\weatherAppBb\platforms\android\assets\www\js\libs\undersco
 Z:\home\localhost\www\weatherAppBb\platforms\android\assets\www\js\libs\backbone\backbone.js \
 Z:\home\localhost\www\weatherAppBb\platforms\android\assets\www\js\libs\backbone\backbone.localStorage.js \
 Z:\home\localhost\www\weatherAppBb\platforms\android\assets\www\js\libs\backbone\backbone.touch.js \
+Z:\home\localhost\www\weatherAppBb\platforms\android\assets\www\js\libs\hammer\backbone.hammer.js \
+Z:\home\localhost\www\weatherAppBb\platforms\android\assets\www\js\libs\hammer\hammer.js \
+Z:\home\localhost\www\weatherAppBb\platforms\android\assets\www\js\libs\hammer\hammer.min.js \
+Z:\home\localhost\www\weatherAppBb\platforms\android\assets\www\js\libs\hammer\hammer.min.map \
+Z:\home\localhost\www\weatherAppBb\platforms\android\assets\www\js\libs\hammer\jquery.hammer.js \
 Z:\home\localhost\www\weatherAppBb\platforms\android\assets\www\js\libs\jquery\jquery-2.1.1.min.js \
 Z:\home\localhost\www\weatherAppBb\platforms\android\assets\www\js\libs\jquery\jquery-ui.min.js \
-Z:\home\localhost\www\weatherAppBb\platforms\android\assets\www\js\libs\jquery\jquery.mobile-1.4.4.min.map \
-Z:\home\localhost\www\weatherAppBb\platforms\android\assets\www\js\libs\jquery\jquerymobile.js \
 Z:\home\localhost\www\weatherAppBb\platforms\android\assets\www\js\libs\requirejs\plugins \
 Z:\home\localhost\www\weatherAppBb\platforms\android\assets\www\js\libs\requirejs\require.js \
 Z:\home\localhost\www\weatherAppBb\platforms\android\assets\www\js\libs\requirejs\plugins\async.js \

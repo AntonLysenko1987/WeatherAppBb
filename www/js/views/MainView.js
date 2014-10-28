@@ -12,20 +12,19 @@ define([
     'jqueryHammer',
     'backboneHammer',
     'async!https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyA87iJ_pjRHgy67v-LsIFzGJcKSxBa7liw&sensor=false'
-], function (App, $, Backbone, LocationModel, WeatherDataModel, ExtendedWeatherDataView, Main, module, device, hammer, jqHammer) {
+], function (App, $, Backbone, LocationModel, WeatherDataModel, ExtendedWeatherDataView, Main, module, device, hammer) {
 	'use strict';
 
 	var MainView = Backbone.View.extend({
-		tagName: 'div',
-        //id: 'mainAppContainer',
+        id: 'mainAppContainer',
         events: {
             'swipe': 'handleSwipe'
         },
         handleSwipe: function(e){
             if(e.gesture.direction == 2) {
-                console.log('left');
+                alert('left');
             } else {
-                console.log('right');
+                alert('right');
             }
         },
 //        hammerEvents: {
