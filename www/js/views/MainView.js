@@ -27,9 +27,9 @@ define([
             tap: true
         },
         handleLeftSwipe: function(){
-            //alert('left');
-            var facebookShareView = new FacebookShareView();
-            $('#sliderData').html(facebookShareView.render().el);
+            alert('left');
+//            var facebookShareView = new FacebookShareView();
+//            $('#sliderData').html(facebookShareView.render().el);
         },
         handleRightSwipe: function(){
             alert('right');
