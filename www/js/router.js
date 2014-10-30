@@ -2,9 +2,8 @@
     'jquery',
     'underscore',
     'backbone',
-    'views/NullStartView',
-    'device'
-], function ($, _, Backbone, StartView, device) {
+    'views/NullStartView'
+], function ($, _, Backbone, StartView) {
         //'use strict';
 
         var AppRouter = Backbone.Router.extend({

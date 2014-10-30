@@ -9,7 +9,7 @@ define([
     'async!https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyA87iJ_pjRHgy67v-LsIFzGJcKSxBa7liw&sensor=false'
 ], function (App, $, Backbone, LocationModel, MainView, device, hammer) {
 	'use strict';
-	var UserProfileView = Backbone.View.extend({
+	var NullStartView = Backbone.View.extend({
 		el: $('#mainBlock'),
         template: '#nullStartView',
         events: {
@@ -24,7 +24,6 @@ define([
 		render: function() {
             var content = $(this.template).html();
 			this.$el.html(content);
-            this.$el.height(device.height);
             var nullStartBlock = $('#nullStart');
             var nullStartHeight = nullStartBlock.height();
             var nullStartVerticalPosition = (device.height - nullStartHeight)/2 + 'px';
@@ -86,9 +85,9 @@ define([
 	});
 
     var initialize = function() {
-        var userProfileView = new UserProfileView();
-        userProfileView.$('#getLocationButton').hammer().on('tap', function() {
-            userProfileView.getLocation();
+        var nullStartView = new NullStartView();
+        nullStartView.$('#getLocationButton').hammer().on('tap', function() {
+            nullStartView.getLocation();
         });
     }
 	return {
