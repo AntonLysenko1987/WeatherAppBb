@@ -18,58 +18,69 @@
     under the License.
 -->
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <meta name="format-detection" content="telephone=no" />
-        <meta name="msapplication-tap-highlight" content="no" />
-        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
-        <link rel="stylesheet" type="text/css" href="css/reset.css" />
-        <link rel="stylesheet" type="text/css" href="css/index.css" />
-        <title>Weather</title>
-    </head>
-    <body>
-        <section id="mainBlock"></section>
-        <script type="text/javascript" src="cordova.js"></script>
-        <script data-main="js/main" src="js/libs/requirejs/require.js"></script>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="msapplication-tap-highlight" content="no"/>
+    <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+    <meta name="viewport"
+          content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi"/>
+    <link rel="stylesheet" type="text/css" href="css/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+    <title>Weather</title>
+</head>
+<body>
+<section id="mainBlock"></section>
+<script type="text/javascript" src="cordova.js"></script>
+<script data-main="js/main" src="js/libs/requirejs/require.js"></script>
 
-        <!--Views templates-->
+<!--Views templates-->
 
-        <script id="nullStartView" type="text/html">
-            <div id="nullStart">
-                <h1>Select location</h1>
-                <input type="text" id="searchLocationInput">
-                <p>or use</p>
-                <a href="javascript:void(0)" id="getLocationButton">My current location</a>
+<script id="nullStartView" type="text/html">
+    <div id="nullStart">
+        <h1>Select location</h1>
+        <input type="text" id="searchLocationInput">
 
-                <div id="myLocation"></div>
-            </div>
-        </script>
+        <p>or use</p>
+        <a href="javascript:void(0)" id="getLocationButton">My current location</a>
 
-        <script id="mainView" type="text/html">
-            <div id="mainWeatherData"></div>
-            <div id="sliderData"></div>
-        </script>
+        <div id="myLocation"></div>
+    </div>
+</script>
 
-        <script id="weatherExtendView" type="text/html">
-            <p><%= weatherDesc %></p>
-            <p>Humidity: <%= humidity %></p>
-            <p>Observatiion time: <%= observation_time %> </p>
-            <p>Pressure: <%= pressure%> </p>
-            <p>Temperature (C): <%= temp_C %> </p>
-            <p>Temperature (F): <%= temp_F %> </p>
-            <p>Visibility: <%= visibility %></p>
-            <p>Wind direction: <%= winddir16Point %> </p>
-            <p>Wind speed (km): <%= windspeedKmph %> </p>
-            <p>Wind speed (m): <%= windspeedMiles %> </p>
-        </script>
+<script id="mainView" type="text/html">
+    <div id="mainWeatherData"></div>
+    <div id="sliderData"></div>
+</script>
 
-        <script id="facebookShareView" type="text/html">
-            Share weather with facebook.
-        </script>
+<script id="weatherExtendView" type="text/html">
+        <p><%= weatherDesc %></p>
 
-        <script id="forecastView" type="text/html">
-            Weather forecast
-        </script>
-    </body>
+        <p>Humidity: <%= humidity %></p>
+
+        <p>Observatiion time: <%= observation_time %> </p>
+
+        <p>Pressure: <%= pressure%> </p>
+
+        <p>Temperature (C): <%= temp_C %> </p>
+
+        <p>Temperature (F): <%= temp_F %> </p>
+
+        <p>Visibility: <%= visibility %></p>
+
+        <p>Wind direction: <%= winddir16Point %> </p>
+
+        <p>Wind speed (km): <%= windspeedKmph %> </p>
+
+        <p>Wind speed (m): <%= windspeedMiles %> </p>
+</script>
+
+<script id="facebookShareView" type="text/html">
+    Share weather with facebook.
+</script>
+
+<script id="forecastView" type="text/html">
+    Weather forecast
+</script>
+</body>
 </html>

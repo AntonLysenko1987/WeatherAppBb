@@ -2,12 +2,13 @@ define([
     'app',
 	'jquery',
 	'backbone',
+    'router',
     'models/LocationModel',
     'views/MainView',
     'device',
     'hammerjs',
     'async!https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyA87iJ_pjRHgy67v-LsIFzGJcKSxBa7liw&sensor=false'
-], function (App, $, Backbone, LocationModel, MainView, device, hammer) {
+], function (App, $, Backbone, Router, LocationModel, MainView, device, hammer) {
 	'use strict';
 	var NullStartView = Backbone.View.extend({
 		el: $('#mainBlock'),
@@ -60,6 +61,8 @@ define([
         loadMainScreen: function (model) {
             var mainView = new MainView({model:model});
             this.$el.html(mainView.render().el);
+            window.router = new Router($('#sliderData'));
+            Backbone.history.start();
         },
         currentLocationSet: function(lat,lng) {
             this.currentLocation.set({latitude:lat, longitude:lng});

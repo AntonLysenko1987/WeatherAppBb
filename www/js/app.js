@@ -6,15 +6,15 @@
     'device'
 ], function ($, _, Backbone, StartView, device) {
         'use strict';
-        var initialize = function(){
-            var $el = $('#mainBlock');
-            $el.height(device.height);
-            StartView.initialize();
+        var App = function(){
+            this.initialize = function() {
+                var $el = $('#mainBlock');
+                $el.height(device.height);
+                StartView.initialize();
+            }
         }
 
-        return {
-            initialize: initialize
-        };
+        return new App();
 
     }
 );
