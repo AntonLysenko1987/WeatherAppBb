@@ -2,7 +2,6 @@ define([
     'app',
 	'jquery',
 	'backbone',
-    'router',
     'models/LocationModel',
     'models/WeatherDataModel',
     'views/ExtendedWeatherDataView',
@@ -12,15 +11,29 @@ define([
     'device',
     'backboneHammer',
     'async!https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyA87iJ_pjRHgy67v-LsIFzGJcKSxBa7liw&sensor=false'
-], function (App, $, Backbone, Router, LocationModel, WeatherDataModel, ExtendedWeatherDataView, FacebookShareView, ForecastView, module, device) {
+], function (App, $, Backbone, LocationModel, WeatherDataModel, ExtendedWeatherDataView, FacebookShareView, ForecastView, module, device) {
 	'use strict';
 
 	var MainView = Backbone.View.extend({
         template: '#mainView',
         events: {
-
+            'click #sliderContent': 'handleSwipe'
         },
-
+        hammerEvents: {
+            'swipeleft': 'handleLeftSwipe',
+            'swiperight': 'handleRightSwipe'
+        },
+        hammerOptions: {
+            tap: true
+        },
+        handleLeftSwipe: function(){
+            alert('left');
+//            var facebookShareView = new FacebookShareView();
+//            $('#sliderData').html(facebookShareView.render().el);
+        },
+        handleRightSwipe: function(){
+            alert('right');
+        },
         initialize: function() {
             this.currentWeather = new WeatherDataModel();
             this.listenTo(this.currentWeather, 'change', this.loadCurrentWeather);
@@ -70,8 +83,9 @@ define([
             });
         },
         loadCurrentWeather: function() {
-//            var extendedWeather = new ExtendedWeatherDataView({model:this.currentWeather});
-//            $('#sliderData').html(extendedWeather.render().el);
+
+            var extendedWeather = new ExtendedWeatherDataView({model:this.currentWeather});
+            $('#sliderData').html(extendedWeather.render().el);
         }
 	});
 	return MainView;

@@ -2,33 +2,33 @@ define([
     'app',
 	'jquery',
 	'backbone',
-    'router',
     'models/LocationModel',
     'views/MainView',
     'device',
     'hammerjs',
     'async!https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyA87iJ_pjRHgy67v-LsIFzGJcKSxBa7liw&sensor=false'
-], function (App, $, Backbone, Router, LocationModel, MainView, device, hammer) {
+], function (App, $, Backbone, LocationModel, MainView, device, hammer) {
 	'use strict';
-	var NullStartView = Backbone.View.extend({
-		el: $('#mainBlock'),
+	var UserProfileView = Backbone.View.extend({
         template: '#nullStartView',
         events: {
             'input #searchLocationInput': 'searchLocation',
             'click #getLocationButton': 'getLocation'
         },
-        initialize: function() {
+        initialize: function(opts) {
+            this.router = opts.router;
             this.currentLocation = new LocationModel();
-            this.render();
             this.listenTo(this.currentLocation,'change',this.loadMainScreen);
         },
 		render: function() {
             var content = $(this.template).html();
 			this.$el.html(content);
+            this.$el.height(device.height);
             var nullStartBlock = $('#nullStart');
             var nullStartHeight = nullStartBlock.height();
             var nullStartVerticalPosition = (device.height - nullStartHeight)/2 + 'px';
             nullStartBlock.css('top',nullStartVerticalPosition);
+            return this;
 		},
         searchLocation: function(e) {
             var inputValue = e.target.value;
@@ -61,8 +61,6 @@ define([
         loadMainScreen: function (model) {
             var mainView = new MainView({model:model});
             this.$el.html(mainView.render().el);
-            window.router = new Router($('#sliderData'));
-            Backbone.history.start();
         },
         currentLocationSet: function(lat,lng) {
             this.currentLocation.set({latitude:lat, longitude:lng});
@@ -87,15 +85,16 @@ define([
 
 	});
 
-    var initialize = function() {
-        var nullStartView = new NullStartView();
-        nullStartView.$('#getLocationButton').hammer().on('tap', function() {
-            nullStartView.getLocation();
-        });
-    }
-	return {
-        initialize: initialize
-    };
+    return UserProfileView;
+//    var initialize = function() {
+//        var userProfileView = new UserProfileView();
+//        userProfileView.$('#getLocationButton').hammer().on('tap', function() {
+//            userProfileView.getLocation();
+//        });
+//    }
+//	return {
+//        initialize: initialize
+//    };
 
 });
 

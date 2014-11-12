@@ -2,19 +2,16 @@
     'jquery',
     'underscore',
     'backbone',
-    'views/NullStartView',
-    'device'
-], function ($, _, Backbone, StartView, device) {
+    'router'
+], function ($, _, Backbone, Router) {
         'use strict';
-        var App = function(){
-            this.initialize = function() {
-                var $el = $('#mainBlock');
-                $el.height(device.height);
-                StartView.initialize();
-            }
+        var initialize = function(){
+            Router.initialize();
         }
 
-        return new App();
+        return {
+            initialize: initialize
+        };
 
     }
 );

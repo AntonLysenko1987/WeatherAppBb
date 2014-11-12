@@ -33,9 +33,8 @@ require.config({
 });
 
 require([
-	'app',
-    'jquery'
-], function (App, $) {
+	'app'
+], function (App) {
     'use strict';
     App.initialize();
 });
