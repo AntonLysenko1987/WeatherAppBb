@@ -65,7 +65,7 @@
             new Router();
             Backbone.history.start({
                 pushState: true,
-                root: "/weatherAppBb_v0.0.1/www/"
+                root: "/weatherAppBb/www/"
             });
         };
         return {
